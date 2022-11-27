@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, a {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  font-family: "Epilogue", sans-serif;
+}
+
+header {
+  background-color: #091353;
+}
+
+.nav_container {
+  height: 50vh;
+  width: 100%;
+}
+.nav_container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  height: 20vh;
+  top: 0;
+}
+.nav_container nav ul {
+  word-spacing: 70px;
+}
+.nav_container nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+.nav_container nav ul li a {
+  text-decoration: none;
+}
+.nav_container nav button {
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  height: 52px;
+  width: 120px;
+  background: #091353;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+}
+.nav_container .hamburer_menu {
+  display: none;
+  color: #ffffff;
+  height: 20px;
+}
+.nav_container .portfolio_container h1 {
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.nav_container .portfolio_container p {
+  margin-top: 27px;
+  font-style: normal;
+  font-weight: 16px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin-bottom: 90px;
+}
+
+@media screen and (max-width: 996px) {
+  .nav_container nav ul {
+    display: none;
+  }
+  .nav_container nav button {
+    display: none;
+  }
+  .nav_container nav .hamburer_menu {
+    display: block;
+  }
+}
+main {
+  background: #F3D1BF;
+  height: 100%;
+  width: 100%;
+}
+main ul {
+  text-align: center;
+}
+main ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 50px 40px;
+  color: #391400;
+}
+main ul li a {
+  text-decoration: none;
+}
+main .card_container .card {
+  position: relative;
+  width: 25%;
+  display: inline-block;
+  margin: 4%;
+}
+main .card_container .card .text {
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+}
+main .card_container .card .text button {
+  border-radius: 40px;
+  cursor: pointer;
+  border: none;
+  height: 40px;
+  width: 110px;
+  background: #ffffff;
+  color: #391400;
+  margin: 10px;
+}
+main .card_container .card .text h3 {
+  color: #ffffff;
+  margin: 10px 10px;
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */

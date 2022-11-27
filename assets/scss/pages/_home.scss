@@ -1,0 +1,55 @@
+main {
+    background: #F3D1BF;
+    height: 100%;
+    width: 100%;
+
+    ul {
+        text-align: center;
+
+        li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 50px 40px;
+            color: #391400;
+
+
+            a {
+                text-decoration: none;
+
+            }
+        }
+    }
+
+    .card_container {
+
+        .card {
+            position: relative;
+            width: 25%;
+            display: inline-block;
+            margin: 4%;
+
+            .text {
+                position: absolute;
+                bottom: 10%;
+                left: 3%;
+
+                button {
+                    border-radius: 40px;
+                    cursor: pointer;
+                    border: none;
+                    height: 40px;
+                    width: 110px;
+                    background: #ffffff;
+                    color: #391400;
+                    margin: 10px;
+                }
+
+                h3{
+                    color: #ffffff;
+                    margin : 10px 10px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
